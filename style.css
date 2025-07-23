@@ -1,4 +1,83 @@
-html {
-  height: 100%;
-  width: 100%;
+h1, h2, h3, h4, h5, h6, .navbar-brand span {
+  font-family: 'Koulen', cursive;
+}
+
+
+body, p, ul, li, .lead, .nav-link {
+  font-family: 'Lato', sans-serif;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 6px solid #3b82f6; /* Vibrant blue border */
+  box-shadow: 0 4px 10px rgba(59, 130, 246, 0.5);
+}
+
+body {
+  background-color: #eff6ff;
+  color: #1e293b;
+}
+
+.subheading {
+  font-family: 'Koulen', cursive;
+  font-size: 1.8rem;
+  color: #2563eb;
+  margin-bottom: 0.8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #1d4ed8;
+  font-weight: 700;
+}
+
+.social-icons a.btn {
+  font-weight: 600;
+  padding: 0.5rem 1.25rem;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.social-icons a.btn:hover {
+  opacity: 0.85;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+}
+
+main {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-item img {
+  height: 400px;
+  width: 100px;
+  object-fit: contain;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;  /* vertical center */
+  gap: 0.5rem;
+  height: 100%;         /* fill navbar height */
+}
+
+
+.navbar {
+  height: 80px;  
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
+.navbar-logo {
+  max-height: 70px;     /* slightly smaller than navbar height */
+  width: auto;
+  object-fit: contain;
+  border-radius: 3px;
 }
