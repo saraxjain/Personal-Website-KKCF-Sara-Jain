@@ -9,41 +9,63 @@
     integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Lato&display=swap" rel="stylesheet" />
   <link href="style.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <style>
+    .btn-contact {
+      min-width: 150px;
+      font-weight: 600;
+      border-radius: 30px;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .btn-contact:hover {
+      transform: scale(1.05);
+    }
+  </style>
 </head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary-subtle p-3">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">Sara Jain</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navMenu">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="waveAI.html">WaveAI</a></li>
-            <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
-          </ul>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary-subtle p-3">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Sara Jain</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="waveAI.html">WaveAI</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5 body-font text-center">
+    <h1 class="heading-font mb-4">Get in Touch</h1>
+    <p class="mb-4">I'd love to hear from you! Reach out by phone, email, or connect with me on social media.</p>
+
+    <div class="card mx-auto" style="max-width: 400px;">
+      <div class="card-body">
+        <p><i class="bi bi-telephone-fill me-2"></i><strong>Phone:</strong> <a href="tel:6506868865">(650) 686 8865</a></p>
+        <p><i class="bi bi-envelope-fill me-2"></i><strong>Email:</strong> <a href="mailto:sara.x.jain@gmail.com">sara.x.jain@gmail.com</a></p>
+
+        <div class="d-flex justify-content-center gap-3 mt-4">
+          <a href="https://linkedin.com/in/saraxjain" target="_blank" rel="noopener" aria-label="LinkedIn" class="btn btn-primary btn-contact">
+            <i class="bi bi-linkedin"></i> LinkedIn
+          </a>
+          <a href="https://instagram.com/saraxjain" target="_blank" rel="noopener" aria-label="Instagram" class="btn btn-danger btn-contact">
+            <i class="bi bi-instagram"></i> Instagram
+          </a>
         </div>
       </div>
-    </nav>
+    </div>
 
-    <main class="container my-5 body-font text-center">
-      <h1 class="heading-font mb-4">Get in Touch</h1>
-      <p>I'd love to hear from you! Feel free to reach out via email or connect with me on social media.</p>
+  </main>
 
-      <p><strong>Email:</strong> <a href="mailto:sara.jain@example.com">sara.jain@example.com</a></p>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
 
-      <div class="social-icons my-3">
-        <a href="https://linkedin.com/in/saraxjain" target="_blank" rel="noopener" aria-label="LinkedIn" class="btn btn-primary mx-2">LinkedIn</a>
-        <a href="https://github.com/sarajain" target="_blank" rel="noopener" aria-label="GitHub" class="btn btn-dark mx-2">GitHub</a>
-        <a href="https://twitter.com/sarajain" target="_blank" rel="noopener" aria-label="Twitter" class="btn btn-info mx-2">Twitter</a>
-      </div>
-    </main>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-    </body>
-
-    </html>
+</html>

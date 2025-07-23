@@ -1,9 +1,9 @@
-h1, h2, h3, h4, h5, h6, .navbar-brand span {
+h1, h2, h3, h4, h5, h6, .navbar-brand span, .nav-link {
   font-family: 'Koulen', cursive;
 }
 
 
-body, p, ul, li, .lead, .nav-link {
+body, p, ul, li, .lead {
   font-family: 'Lato', sans-serif;
 }
 
@@ -64,7 +64,8 @@ main {
   display: flex;
   align-items: center;  /* vertical center */
   gap: 0.5rem;
-  height: 100%;         /* fill navbar height */
+  height: 100%; 
+  font-size: 1.6rem; /* fill navbar height */
 }
 
 
@@ -80,4 +81,25 @@ main {
   width: auto;
   object-fit: contain;
   border-radius: 3px;
+}
+
+.navbar .nav-link {
+  font-size: 1.2rem; /* increase as you like */
+  font-weight: 600;  /* optional, for a bit bolder text */
+}
+
+.headshot {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.info-box {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 20px;
+  height: 100%;
+  background-color: #f8f9fa;
 }
